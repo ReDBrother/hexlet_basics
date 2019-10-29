@@ -69,6 +69,8 @@ $hexlet-basics-elixir-bg: #9976d6;
   background-color: $hexlet-basics-elixir-bg;
 }
 
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
 @import "~bootstrap/scss/bootstrap";
 
 @each $breakpoint in map-keys($grid-breakpoints) {
